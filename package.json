@@ -7,8 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "commitmsg": "commitlint -e"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -51,7 +50,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run -s commitmsg && npm run lint"
+      "pre-commit": "commitlint -env $HUSKY_GIT_PARAMS && npm run lint"
     }
   }
 }
