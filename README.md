@@ -1,3 +1,6 @@
+[![Coverage Status](https://coveralls.io/repos/github/Lanfeustdu66/dashboardjs2/badge.svg?branch=master)](https://coveralls.io/github/Lanfeustdu66/dashboardjs2?branch=master)
+
+
 # Dashboardjs2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
